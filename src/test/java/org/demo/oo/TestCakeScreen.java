@@ -20,8 +20,11 @@ public class TestCakeScreen {
 	
 	@Test
 	public void test_validateValueObject(){
-		
 		cakeScreen.validateValueObject(valueObject);
 	}
 	
+	@Test
+	public void test_show(){
+		cakeScreen.show();
+	}
 }

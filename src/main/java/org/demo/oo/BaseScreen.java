@@ -4,17 +4,17 @@ import org.apache.log4j.Logger;
 
 import java.util.List;
 
-public abstract class DemoScreen extends Screen  {
+public abstract class BaseScreen extends Screen  {
 	
-	private static final Logger logger = Logger.getLogger(DemoScreen.class);
+	private static final Logger logger = Logger.getLogger(BaseScreen.class);
 	
 	public boolean isValidationRequired(){
-		logger.info("DemoScreen.isValidationRequired()");
+		logger.info("BaseScreen.isValidationRequired()");
 		return true;
 	}
 	
 	public boolean isValidateOnLoad(){
-		logger.info("DemoScreen.isValidateOnLoad()");
+		logger.info("BaseScreen.isValidateOnLoad()");
 		return true;
 	}
 	
@@ -24,7 +24,11 @@ public abstract class DemoScreen extends Screen  {
 	 * @return a list of validation code
 	 */
 	public List<String> validateValueObject(ValueObject valueObject) {
-		logger.info("DemoScreen.validateValueObject()");
+		logger.info("BaseScreen.validateValueObject()");
 		return null;
+	}
+
+	protected void show(){
+		logger.info("BaseScreen.show()");
 	}
 }

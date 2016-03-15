@@ -1,16 +1,18 @@
-package org.demo.oo;
+package org.demo.screen;
 
 import java.util.List;
 
 import org.apache.log4j.Logger;
+import org.demo.oo.BaseScreen;
+import org.demo.oo.ValueObject;
 
-public class CakeScreen extends BaseScreen {
+public class CornScreen extends BaseScreen {
 
-	private static final Logger logger = Logger.getLogger(CakeScreen.class);
+	private static final Logger logger = Logger.getLogger(CornScreen.class);
 	
 	@Override
 	public boolean validateScreenObject() {
-		logger.info("CakeScreen.validateScreenObject()");
+		logger.info("CornScreen.validateScreenObject()");
 		return false;
 	}
 
@@ -20,7 +22,7 @@ public class CakeScreen extends BaseScreen {
 	 * @return a list of validation code
 	 */
 	public List<String> validateValueObject(ValueObject valueObject) {
-		logger.info("CakeScreen.validateValueObject()");
+		logger.info("CornScreen.validateValueObject()");
 		return null;
 	}
 	

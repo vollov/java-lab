@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+<policy>
+	<employees>
+		<companyname>ABC Inc.</companyname>
+		<employee>
+			<id>101</id>
+			<name>Ram</name>
+			<designation>Manager</designation>
+		</employee>
+
+		<employee>
+			<id>102</id>
+			<name>Prabhu</name>
+			<designation>Executive</designation>
+		</employee>
+
+		<employee>
+			<id>103</id>
+			<name>John</name>
+			<designation>Executive</designation>
+		</employee>
+	</employees>
+
+	<class>
+		<student rollno="393">
+			<firstname>Dinkar</firstname>
+			<lastname>Kad</lastname>
+			<nickname>Dinkar</nickname>
+			<marks>85</marks>
+		</student>
+		<student rollno="493">
+			<firstname>Vaneet</firstname>
+			<lastname>Gupta</lastname>
+			<nickname>Vinni</nickname>
+			<marks>95</marks>
+		</student>
+		<student rollno="593">
+			<firstname>Jasvir</firstname>
+			<lastname>Singh</lastname>
+			<nickname>Jazz</nickname>
+			<marks>90</marks>
+		</student>
+	</class>
+</policy>
